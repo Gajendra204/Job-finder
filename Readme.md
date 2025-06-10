@@ -7,18 +7,21 @@ A full-stack job portal where students can search and apply for jobs, and recrui
 ## Features
 
 ### For Students
+
 - Browse and search for jobs
 - View detailed job descriptions
 - Apply for jobs
 - Track applied jobs in profile
 
 ### For Recruiters/Companies
+
 - Register and manage company profiles
 - Post new job listings
 - View applicants for each job
 - Update company and job details
 
 ### Admin Panel
+
 - Manage companies and jobs
 - View all applicants
 
@@ -39,7 +42,7 @@ A full-stack job portal where students can search and apply for jobs, and recrui
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/job-portal-main.git
+git clone https://github.com/Gajendra204/Job-finder.git
 cd job-portal-main
 
 Setup Backend
@@ -56,17 +59,4 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 JWT_SECRET=your_jwt_secret
 
-Start the backend server:
-
-npm run dev
-
-Setup Frontend
-
-cd ../Client
-npm install
-
-Create a .env file in the Client folder:
-
-VITE_BACKEND_URL=http://localhost:8000
-
-npm run dev
+```
