@@ -206,7 +206,7 @@ const Navbar = () => {
                           />
                         ) : (
                           <AvatarImage
-                            src="https://github.com/shadcn.png"
+                            src="https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_3.png"
                             alt="profile"
                           />
                         )}
